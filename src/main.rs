@@ -5,7 +5,9 @@ use std::thread;
 
 const LOCAL: &str = "127.0.0.1:6000";
 const MSG_SIZE: usize = 32;
-
+/**
+ * this is test for
+ */
 fn main() {
     let server = TcpListener::bind(LOCAL).expect("Listener failed to bind");
     server
